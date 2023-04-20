@@ -10,7 +10,7 @@ export class PropertyCardComponent implements OnInit {
   constructor() { }
 
   @Input() inputProperty:any//throgh this we can receive list of properties
-  //passing data using Input directive
+  //passing data using Input directive from parent to child
   
   ngOnInit(): void {
   }
