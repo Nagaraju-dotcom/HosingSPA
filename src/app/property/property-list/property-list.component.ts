@@ -12,7 +12,7 @@ export class PropertyListComponent implements OnInit {
   properties: Array<IProperty>;
 
   constructor(private housingService:HousingService) {
-    this.properties=[];
+    //this.properties=[];
    }  
 
   ngOnInit(): void {
